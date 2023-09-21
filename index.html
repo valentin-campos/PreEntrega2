@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>   
+</head>
+<body> 
+    <section class="primeraParte">
+        <h1 class="texto1">¡Bienvenido! ¿Qué película querés comprar?</h1>
+        <ul id="items">
+            <li onclick="comprar(pelicula1)"><img src="./img/oppenheimer.webp" alt=""></li>
+            <li onclick="comprar(pelicula2)"><img src="./img/batman.webp" alt=""></li>
+            <li onclick="comprar(pelicula3)"><img src="./img/Las_dos_torres.webp" alt=""></li>
+            <li onclick="comprar(pelicula4)"><img src="./img/onceopenatimeinhollywood.webp" alt=""></li>
+            <li onclick="comprar(pelicula5)"><img src="./img/starwars.webp" alt=""></li>
+        </ul>
+    </section>
+    <section id="sectionInventario">
+        <h2>Mi inventario</h2>
+        <ul id="inventario">
+            
+        </ul>
+        <h2 id="plata">
+            Plata: <span> </span>
+        </h2>
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
